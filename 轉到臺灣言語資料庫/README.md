@@ -9,7 +9,7 @@ git clone https://github.com/Taiwanese-Corpus/ungian_taihoa_dictionary.git
 sudo apt-get install -y python3 python-virtualenv
 virtualenv --python=python3 venv
 . venv/bin/activate
-pip install -r moedict-data-twblg/轉到臺灣言語資料庫/requirements.txt
+pip install -r requirements.txt
 echo "from 轉到臺灣言語資料庫.整合到資料庫 import 走 ; 走()" | PYTHONPATH=moedict-data-twblg python manage.py shell
 ```
 
