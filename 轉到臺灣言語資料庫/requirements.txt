@@ -1,0 +1,3 @@
+tai5-uan5-gian5-gi2-kang1-ku7
+tai5-uan5_gian5-gi2_tsu1-liau7-khoo3==3.1.2
+-e git+https://github.com/conrado/libavwrapper@master#egg=libavwrapper
